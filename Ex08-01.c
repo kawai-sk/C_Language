@@ -1,7 +1,7 @@
 ﻿// floatとintのインクリメントを見比べる
 
 #include <stdio.h>
-#define diff(x,y) (x-y)
+#define diff(x,y) ((x)-(y))
 
 int main(void)
 {
